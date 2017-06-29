@@ -45,14 +45,42 @@ p {
 }
 
 .sans {
-font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: .5em;
+  color: #FFF;
+  text-transform: uppercase;
+
 }
 
-iframe {
-  margin-bottom: 20px;
+.menu {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  color: white;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.info-head {
+  position: absolute;
+  left: 100px;
+  top: 40px;
+}
+/*.menu li {
+  list-style: none;
+  font-size: 3em;
+}*/
+
+li {
+  font-size: 3em;
+  line-height: 1.5em;
 }
 
 a {
-  color: #000;
+  color: #FFF;
+  text-decoration: none;
 }
