@@ -1,0 +1,58 @@
+html {
+  background: url('background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000;
+/*  background-color: #0e581a;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='40' viewBox='0 0 24 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40c5.523 0 10-4.477 10-10V0C4.477 0 0 4.477 0 10v30zm22 0c-5.523 0-10-4.477-10-10V0c5.523 0 10 4.477 10 10v30z' fill='%2339ca63' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+*/
+/*  background-color: #dbe5de;
+background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23aca092' fill-opacity='0.79' fill-rule='evenodd'/%3E%3C/svg%3E");
+    */font-family: 'PT Sans', sans-serif;
+  }
+
+.text-box h1 {
+  font-size: 1em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 100;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
+.text-box h2 {
+  font-size: .75em;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.text-box {
+  margin: 0 auto;
+  background-color: #FFF;
+  color: #000;
+  height: auto;
+  width: 500px;
+  padding: 20px 40px 20px 40px;
+  font-size: 30px;
+}
+
+
+p {
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+.sans {
+font-family: 'Josefin Sans', sans-serif;
+  font-size: .5em;
+}
+
+iframe {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #000;
+}
