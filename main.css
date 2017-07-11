@@ -47,7 +47,7 @@ html {
 
 .text-box {
   background-color: rgba(0, 0 ,0, 0.6);
-  color: #FFF;
+  color: rgb(0, 255, 255);
   padding: 40px;
   font-size: 1.5em;
   /*margin-top: 20px;
@@ -55,10 +55,12 @@ html {
   margin-right: auto;
   position: relative;*/
   width: 50%;
-  position: absolute;
+  position: relative;
   top: 0;
-  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   min-height: 100%;
+  text-align: center;
   /* bring your own prefixes */
   /*transform: translate(-50%, -50%);*/
 }
@@ -78,16 +80,21 @@ p {
   margin: 0;
 }
 
+.section-header {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .header {
   text-transform: uppercase;
   margin-bottom: 30px;
-  /*text-align: center;*/
+  text-align: center;
   font-size: 1.25em;
 }
 
 .text-block {
   /*text-align: center;*/
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .text-block a{
