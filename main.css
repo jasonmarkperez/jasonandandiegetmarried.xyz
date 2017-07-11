@@ -5,44 +5,6 @@ html {
   -o-background-size: cover;
   background-size: cover;
   background-color: #333;
-  font-family: 'PT Sans', sans-serif;
-  /*border: 15px solid black;*/
-}
-
-
-
-.text-box h1 {
-  font-size: 1em;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  font-weight: 100;
-  border-top: 1px solid black;
-  padding-top: 20px;
-}
-
-.text-box h2 {
-  font-size: .75em;
-  font-style: italic;
-  letter-spacing: 2px;
-}
-
-.aside {
-  position: absolute;
-  right: -175px;
-  top: 0;
-}
-
-.aside li {
-  font-family: 'Poppins', sans-serif;
-}
-
-.aside li:hover {
-  /*text-decoration: underline;*/
-  background-color: white;
-}
-
-.aside li:hover a{
-  color: #000;
 }
 
 .text-box {
@@ -50,10 +12,6 @@ html {
   color: rgb(0, 255, 255);
   padding: 40px;
   font-size: 1.5em;
-  /*margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;*/
   width: 50%;
   position: relative;
   top: 0;
@@ -61,17 +19,6 @@ html {
   margin-right: auto;
   min-height: 100%;
   text-align: center;
-  /* bring your own prefixes */
-  /*transform: translate(-50%, -50%);*/
-}
-
-.selected {
-  background-color: white;
-  color: #000;
-  padding: 0;
-}
-
-.internal {
   line-height: 1.5;
   font-family: 'Bellefair', serif;
 }
@@ -93,39 +40,12 @@ p {
 }
 
 .text-block {
-  /*text-align: center;*/
   margin-bottom: 30px;
 }
 
 .text-block a{
   color: #FFF;
   border-bottom: 3px double;
-}
-.sans {
-  font-family: 'Josefin Sans', sans-serif;
-  color: #FFF;
-  text-transform: uppercase;
-}
-
-.menu {
-  color: white;
-  display: inline-block;
-  float: right;
-}
-
-.content {
-  display: block;
-  margin: 50px;
-  position: relative;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-a {
   color: #FFF;
   text-decoration: none;
 }
